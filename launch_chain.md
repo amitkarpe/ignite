@@ -41,4 +41,28 @@ ignite n request list ${chainid}
 Once all validators are approve then *Launch the chain* on Coordinator node:
 ```
 ignite n chain launch $chainid
+
+# Check info details of the chain
+ignite n chain show info $chainid
+
+# Check the chain genesis file
+ignite n chain show genesis $chainid
+
+# Check all vesting and genesis accounts of the chain
+ignite n chain show accounts $chainid
+
+# Check all validators of the chain
+ignite n chain show validators $chainid
+
+# Check peers list of the chain
+ignite n chain show peers $chainid
 ```
+
+
+Once the chain is launched on Coordinator node then run following commands to join the blockchain network:
+```
+ignite n chain prepare $chainid
+${proj}d start --home ${HOME}/spn/$chainid
+```
+
+
