@@ -65,4 +65,7 @@ ignite n chain prepare $chainid
 ${proj}d start --home ${HOME}/spn/$chainid
 ```
 
+Details for Blockchain ID 327
+
+![Details for Blockchain ID 327](https://user-images.githubusercontent.com/1894622/199388435-b324406d-751c-4aab-ab0a-a61c2c1b2139.png)
 
